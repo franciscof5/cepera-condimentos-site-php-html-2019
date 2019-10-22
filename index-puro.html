@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cepera</title>
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<script src="assets/bootstrap.min.js"></script>
+
+	<style>
+	.bd-placeholder-img {
+		font-size: 1.125rem;
+		text-anchor: middle;
+	}
+	@media (min-width: 768px) {
+		.bd-placeholder-img-lg {
+			font-size: 3.5rem;
+		}
+	}
+	</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-mostarda" id="navbar-principal">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsPrincipal" aria-controls="navbarsPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarsPrincipal">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Produtos</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Receitas</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Dicas</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Onde Encontrar</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Institucional</a>
+			</li>
+			<li>
+				<a href="/"><img src="images/cepera_logo.png"></a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sustentabilidade</a>
+				<div class="dropdown-menu" aria-labelledby="dropdown01">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<a class="dropdown-item" href="#">Something else here</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contato</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Intranet</a>
+			</li>
+			<li class="nav-item">
+				<div style="width: 75%;">
+					<form id="search-form-inline">
+						<input class="form-control mr-sm-2 verde-oliva" type="text" placeholder="PESQUISA" aria-label="Search">
+						<!--button class="btn btn-outline-success" type="submit" id="search-button"--><i class="inside-icon fas fa-search"></i><!--/button-->
+					</form>
+				</div>
+			</li>
+			<li class="nav-item">
+				<i class="fas fa-lg fa-shopping-basket"></i>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<main role="main">
+
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+	<div id="home_mostarda">
+		<div class="container">
+			<h3 class="h-branco">Conheca Nossa Linha de Mostardas</h3>
+				<p class="mostarda-escuro">This is a template for a simple marketing or informational website. It includes a large callout.<br>
+				<button class="button-verde-oliva">Comprar</button>
+				</p>
+				
+		</div>	
+		
+		<img src="images/bgs/home_mostarda.jpg" class="responsive width100">
+	</div>
+
+	<div>
+		<img src="images/bgs/home_linha_produtos.jpg" class="responsive width100">
+
+	</div>
+
+	<div class="jumbotron bg-cover no-border-radius" style="background:url('images/bgs/home_vegetais.jpg') no-repeat;">
+		<div class="container">
+			<div class="col-md-6 offset-md-5 col-lg-6 offset-lg-4 offset-sm-0 col-sm-12 bg-amarelo" style="margin-top:260px;">
+				<h2 class="orange">Lore Ipsum</h2>
+				<p class="verde-oliva"><strong>Lore ipsum adal dja lksjd alkdj lkajd lkajsdl kasjd lkasjd lkaj sdlakd jlkasj dlkajd akls</strong></p><p class="verde-oliva">LJdlakjds aLdj aldj aldjalsdjalks</p>
+			</div>
+			
+			<div class="col-md-6 offset-md-2 col-lg-6 offset-lg-2 offset-sm-0 col-sm-12 bg-amarelo" style="margin-top:300px; margin-bottom:400px;">
+				<h2 class="orange">Lore Ipsum</h2>
+				<p class="verde-oliva"><strong>Lore ipsum adal dja lksjd alkdj lkajd lkajsdl kasjd lkasjd lkaj sdlakd jlkasj dlkajd akls</strong></p><p class="verde-oliva">LJdlakjds aLdj aldj aldjalsdjalks</p>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<img src="images/bgs/home_receitas.jpg" class="responsive width100">
+	</div>
+
+
+	<div id="home_novidades" class="container text-center p-4">
+		<span class="trashhandregular verde-oliva h4">Quer receber nossas novidades?</span> &nbsp; &nbsp;
+		<div style="width: 25%; display: inline-block;">
+			<input type="text" class="boxed borda-verde-oliva" placeholder="Adicione seu e-mail aqui:">
+			<i class="fas fa-chevron-right inside-icon bg-verde-oliva"></i>
+		</div>
+		
+		<p class="float-right">
+			<i class="fab fa-facebook-f bg-verde-oliva round-icon"></i> 
+			<i class="fab fa-instagram fa-lg bg-verde-oliva round-icon"></i>
+		</p>
+	</div>
+
+</main>
+
+<footer class="container">
+	<div class="row">
+		<a class="col-3" href="/"><img src="images/cepera_logo.png" height="100"></a>
+
+		<ul id="footer-menu" class="col-9">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Produtos</a>
+				<ul>
+					<li><a href="#">Coberturas</a></li>
+					<li><a href="#">Condimentos</a></li>
+					<li><a href="#">Conservas</a></li>
+					<li><a href="#">Derivados de Tomate</a></li>
+					<li><a href="#">Doces e Frutas em Calda</a></li>
+					<li><a href="#">Molho</a></li>
+					<li><a href="#">Molhos Culinários Especiais</a></li>
+					<li><a href="#">Óleos e Temperos</a></li>
+					<li><a href="#">Pimentas</a></li>
+					<li><a href="#">Quase Pronto</a></li>
+					<li><a href="#">Sabores Cepêra</a></li>
+					<li><a href="#">Linha Food Service</a></li>
+					<li><a href="#">Condimentos</a></li>
+
+				</ul>
+			</li>
+			<li><a href="#">Receitas</a></li>
+			<li><a href="#">Dicas</a></li>
+			<li><a href="#">Sustentabilidade</a></li>
+			<li><a href="#">Institucional</a>
+				<ul>
+					<li><a href="#">A Cepêra</a></li>
+					<li><a href="#">Linha do Tempo Cepêra</a></li>
+					<li><a href="#">Receitas</a></li>
+					<li><a href="#">Dicas</a></li>
+					<li><a href="#">Notícias</a></li>
+					<li><a href="#">Fale Conosco</a></li>
+					<li><a href="#">Tabela Fenilalnina</a></li>
+					<li><a href="#">Vídeo Institucional</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Onde Encontrar</a></li>
+			<li><a href="#">Contato</a></li>
+		</ul>
+	</div>
+	<div class="row">
+		<p class="copyright">Copyright 2013 - Cêpera Alimentos - Todos os diretos reservados</p>
+	</div>
+</footer>
+
+<script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+
+</body>
+</html>
